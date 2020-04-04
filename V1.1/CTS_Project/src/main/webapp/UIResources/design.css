@@ -1,0 +1,377 @@
+
+#background{
+	position:fixed;
+	width:100%;
+	top:0%;
+	left:0%;
+	bottom:0%;
+	height:100%;
+	
+	border-radius:10px;
+	z-index: -1;
+}
+
+
+
+#upper{
+	position: fixed;
+	left:18%;
+	z-index:10;
+
+height: 20%;
+width: 81.5%;
+
+}
+
+#upperShopping{
+	position: fixed;
+	left:18%;
+	z-index:10;
+top:6%;
+height: 20%;
+width: 81.5%;
+
+}
+
+#upperInner{
+	position:relative;
+	
+	width: 80%;
+	padding-left: 5%;
+	
+	left: 14%;
+	z-index: 10;
+	
+}
+
+
+#upperInnerShopping{
+	position:relative;
+	
+	width: 80%;
+	padding-left: 5%;
+	
+	left: 77%;
+	z-index: 10;
+	
+}
+
+#customer_login{
+	
+	position:relative;
+	text-decoration: none ;
+	
+	font-family:cursive;
+	padding-left:60%;
+	color:white;
+	
+	font-weight:500;	
+	
+}
+#admin_login{
+	
+	position:relative;
+	text-decoration: none ;
+	top:10%;
+	font-family:cursive;
+padding-left:3%;
+	color:white;
+	
+	font-weight:500;	
+	
+	
+}
+
+
+
+
+
+#about_US{
+	
+	position:relative;
+	text-decoration: none ;
+	padding-left:3%;
+	color:white;
+	
+	font-weight:500;	
+	font-family:cursive;
+	
+	
+	
+	
+	
+}
+
+#Hrule{
+	
+	position: relative;
+	top:-5%;
+	
+	height:10%;
+	width: 80%;
+	background-image: linear-gradient(to left,rgb(73, 124, 173),rgba(255,0,0,0));
+	left: 20%;
+}
+
+
+
+#HruleShopping{
+	
+	position: relative;
+	top:-5%;
+	
+	height:10%;
+	width: 30%;
+	background-image: linear-gradient(to left,rgb(73, 124, 173),rgba(255,0,0,0));
+	left: 70%;
+}
+
+#middle{
+	
+	position: absolute;
+	width: 99.99%;
+	left:0%;
+	right:0%;
+	height: 60%;
+	top: 20%;
+	background-image: linear-gradient(to left,rgb(72, 207, 203),rgb(73, 124, 173),rgb(73, 204, 253));
+	
+	z-index: 10;
+}
+
+#ThePharmaCompanyLogo
+{
+	position: relative;
+	left:0%;
+	top:5%;
+	
+	width: 30%;
+	height: 90%;
+	
+}
+
+#ThePharmaCompanyLogoShopping
+
+{
+	position: fixed;
+	left:0%;
+	top:13%;
+	
+	width: 30%;
+	height: 90%;
+	
+}
+
+#icon{
+	
+	position: fixed;
+	width: 5%;
+	height: 5%;
+	top:15%;
+	left: 93%;
+	
+	
+}
+
+#form{
+	
+	position: absolute;
+
+width: 15%;
+height:80%;
+left: 80%;
+	top: 10%;
+	
+	
+}
+
+#formTitle{
+	
+	color: white;
+	font-family: cursive;
+	padding-bottom: 0%;
+	font-style:italic;
+	
+	
+	
+}
+
+#entry{
+	
+	
+	
+	border-radius: 10px; 
+	text-align: center;
+	
+	
+}
+
+#submit{
+
+	width: 45%;
+	border-radius: 50px;
+padding-bottom: 0.1%;
+padding-top: 0.1%;
+top:86%;
+font-style:italic;
+font-weight: bold;
+font-size: 20px;
+color:grey ;
+left:25%;
+ background-image: linear-gradient(to bottom,greenyellow,lightgreen);
+ position: absolute;
+ 
+
+}
+
+#submitCstLogin{
+
+	width: 10%;
+	border-radius: 50px;
+padding-bottom: 0.1%;
+padding-top: 0.1%;
+top:70%;
+font-style:italic;
+font-weight: bold;
+font-size: 20px;
+color:grey ;
+left:48%;
+ background-image: linear-gradient(to bottom,greenyellow,lightgreen);
+ position: fixed;
+ 
+
+}
+
+#formCstLogin{
+	
+	position: absolute;
+background-image: linear-gradient(to bottom,rgb(29, 126, 180),rgb(30, 145, 165),rgb(37, 159, 147),rgb(39, 172, 131),rgb(42, 179, 120),rgb(42, 179, 120),rgb(194, 218, 82),rgb(225, 229, 66));
+width: 25%;
+height:50%;
+left: 40%;
+	top: 20%;
+	border-radius: 20%;
+	
+	
+}
+
+
+#formTitleCstLogin{
+	
+	color: white;
+	font-family: cursive;
+	padding-bottom: 0%;
+	font-style:italic;
+	position: relative;
+	left: 10%;
+	
+	
+	
+}
+
+#entryCstLogin{
+	
+	
+	position:relative;
+	left:50%;
+	border-radius: 10px; 
+	text-align: center;
+	
+	
+}
+
+.container {
+  position: relative;
+  margin-top: 5%;
+  width: 40%;
+  height: 60%;
+ 	left: 35%;
+ 	
+ 	
+ 	
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+.title {
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 0%;
+  font-weight: 700;
+  font-size: 30px;
+  
+  text-align: center;
+  text-transform: uppercase;
+  color: lime;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.container:hover .title {
+  top: 30%;
+   left:5%;
+}
+
+.button {
+  position: absolute;
+  width: 500px;
+  left:5%;
+  top: 50%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+
+#session{
+	position:fixed;
+	width:100%;
+	height:6%;
+	z-index:10;
+	font-family: sans-serif;
+font-style:italic;
+color:#FFFDC1;
+	font-size: 200%;
+	left: 10%;
+	padding-left:72%;
+	top: 0%;
+	background-image: linear-gradient(to left,rgb(73, 124, 173),rgba(255,0,0,0));
+	
+	
+}
+
+

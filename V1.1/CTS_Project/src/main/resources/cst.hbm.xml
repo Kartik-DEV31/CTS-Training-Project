@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+
+"-//Hibernate/Hibernate Mapping DTD//EN"
+
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+
+<hibernate-mapping>
+
+  <class name = "com.POJO.customerEntryPojo" table = "Customer">
+
+
+   <id name = "customer_ID" type = "int" column = "customer_ID"/>
+
+   <property name = "customer_Name" column = "customer_Name" type = "string"/>
+
+  
+   <property name = "customer_Phone" column = "customer_Phone" type = "string"/>
+    <property name = "customer_Password" column = "customer_Password" type = "string"/>
+ <property name = "customer_Address" column = "customer_Address" type = "string"/>
+
+
+
+  </class>
+
+<class name = "com.POJO.adminLoginPojo" table = "Admin">
+
+
+   <id name = "admin_ID" type = "int" column = "admin_ID"/>
+
+   <property name = "email_ID" column = "email_ID" type = "string"/>
+  
+    <property name = "password" column = "password" type = "string"/>
+
+
+
+  </class>
+
+<class name = "com.POJO.productsCRUDPojo" table = "Products">
+
+
+   <id name = "product_ID" type = "int" column = "product_ID"/>
+
+   <property name = "product_Name" column = "product_Name" type = "string"/>
+  
+    <property name = "product_Cost" column = "product_Cost" type = "string"/>
+     <property name = "product_Picture" column = "product_Picture" type = "string"/>
+
+
+
+  </class>
+
+
+
+
+
+
+
+</hibernate-mapping>

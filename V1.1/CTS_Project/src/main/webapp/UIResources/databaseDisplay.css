@@ -1,0 +1,79 @@
+#background{
+	position:fixed;
+	width:100%;
+	top:0%;
+	left:0%;
+	bottom:0%;
+	height:100%;
+	
+	border-radius:10px;
+	z-index: -1;
+}
+
+
+
+
+
+#logout{
+	position:fixed;
+	width:100%;
+	height:6%;
+	z-index:10;
+	font-family: sans-serif;
+font-style:italic;
+
+	font-size: 200%;
+	left: 20%;
+	padding-left:72%;
+	top: 0%;
+	background-image: linear-gradient(to left,rgb(73, 124, 173),rgba(255,0,0,0));
+	
+	
+	
+	
+}
+a{
+	
+	text-decoration: none;
+	color: red;
+	
+}
+
+#table{
+	
+	position: absolute;
+	left: 43%;
+	top: 20%;
+}
+
+h1{
+	position: fixed;
+	top: 10%;
+	left: 86%;
+	font-style: italic;
+	color:#FFFDC1;
+	
+	
+}
+
+
+#button{
+	margin-top:0.5%;
+	position: fixed;
+	 border-radius:30%;
+	left:94.5%;
+	
+}
+
+
+#ThePharmaCompanyLogoShopping
+
+{
+	position: fixed;
+	left:0%;
+	top:13%;
+	
+	width: 30%;
+	height: 90%;
+	
+}
